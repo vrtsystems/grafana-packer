@@ -7,7 +7,11 @@ REPO_PATH=$GOPATH/src/github.com/grafana/grafana
 
 mkdir -p /go/src/github.com/grafana
 cd /go/src/github.com/grafana
-git clone https://github.com/grafana/grafana.git
+
+# Get VRT's fork of Grafana so we can include the singlestat image patch
+git clone https://github.com/vrtsystems/grafana.git
+cd grafana
+git checkout singlestat-add-image
 
 # go get -u -v github.com/grafana/grafana
 
