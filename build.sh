@@ -13,6 +13,7 @@ git clone https://github.com/vrtsystems/grafana.git
 cd grafana
 git checkout singlestat-add-image
 
+
 # go get -u -v github.com/grafana/grafana
 
 cd $REPO_PATH
