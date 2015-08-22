@@ -23,6 +23,9 @@ go run build.go build
 
 npm install
 
+source /etc/profile.d/rvm.sh
+rvm use 1.9.3 --default
+
 gem install fpm
 
 go run build.go package latest
