@@ -11,7 +11,8 @@ cd /go/src/github.com/grafana
 # Get VRT's fork of Grafana so we can include the singlestat image patch
 git clone https://github.com/vrtsystems/grafana.git
 cd grafana
-git checkout singlestat-add-image
+#git checkout singlestat-add-image
+git checkout v2.1.2
 
 
 # go get -u -v github.com/grafana/grafana
