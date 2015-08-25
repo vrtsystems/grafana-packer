@@ -12,7 +12,7 @@ cd /go/src/github.com/grafana
 git clone https://github.com/vrtsystems/grafana.git
 cd grafana
 #git checkout singlestat-add-image
-git checkout v2.1.2
+git checkout v2.1.3
 
 
 # go get -u -v github.com/grafana/grafana
